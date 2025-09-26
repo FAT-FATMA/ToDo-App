@@ -69,7 +69,7 @@ class _MyAppState extends State<MyApp> {
               darkTheme: darkTheme,
               themeMode: themeManager.themeMode,
 
-              // 🌍 language settings
+              //  language settings
               locale: _locale,
               supportedLocales: S.delegate.supportedLocales,
               localizationsDelegates: const [
@@ -79,7 +79,7 @@ class _MyAppState extends State<MyApp> {
                 GlobalCupertinoLocalizations.delegate,
               ],
 
-              // 🏠 first screen
+              // first screen
               home: SplashScreen(
                 onFinished: () {},
                 setLocale: (Locale locale) {
