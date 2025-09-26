@@ -56,20 +56,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   MaterialPageRoute(builder: (_) => LoginScreen()),
                 ),
               ),
-              // child: ElevatedButton(
-              //   onPressed: () => Navigator.push(
-              //     context,
-              //     MaterialPageRoute(builder: (_) => LoginScreen()),
-              //   ),
-              //   style: ElevatedButton.styleFrom(
-              //     minimumSize: Size.fromHeight(50),
-              //     backgroundColor: const Color.fromARGB(255, 133, 95, 198),
-              //   ),
-              //   child: Text(
-              //     'lets Start',
-              //     style: TextStyle(fontSize: 16.sp, color: Colors.white),
-              //   ),
-              // ),
+              
             ),
           ],
         ),
